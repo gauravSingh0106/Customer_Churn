@@ -5,11 +5,10 @@ Using a dataset of 50,000 customers, I built an interactive Power BI dashboard t
 and analyze how variables like age, contract type, payment method, and monthly charges impact customer loyalty.
 
 ## Data Set Here
-
 <a href="https://github.com/gauravSingh0106/Customer_Churn/blob/main/customer_churn_dataset_50000.csv"<a/>
 ## Dashboard Screenshot Here
-
 <a href="https://github.com/gauravSingh0106/Customer_Churn/blob/main/custoemr%20chhurn.png"</a>
+
 <image width="1333" height="735" alt="custoemr chhurn" src="https://github.com/user-attachments/assets/c41f400c-ba8d-4bd0-926b-7aa810e1e962" />
 
 ## Project Overview <br>
