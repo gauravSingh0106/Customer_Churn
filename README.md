@@ -51,5 +51,4 @@ The dashboard tracks churn metrics in real time and breaks them down by age, con
 - Build proactive engagement triggers for "Low Risk" customers, since most churn originates here rather than from flagged high-risk accounts.
 - Review pricing tiers for the <80 monthly charge segment to understand what's pushing budget-conscious customers out.
 
----
-📌 *Feel free to explore the dashboard and dataset linked above. Feedback and suggestions are welcome!*
+
