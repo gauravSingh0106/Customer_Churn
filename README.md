@@ -1,55 +1,55 @@
-## Customer Churn analysis Dashboard
+# Customer Churn Analysis Dashboard
 
-This project focuses on analyzing customer retention and understanding the key factors driving customer churn. <br>
-Using a dataset of 50,000 customers, I built an interactive Power BI dashboard to track churn metrics, identify high-risk customer segments, <br>
-and analyze how variables like age, contract type, payment method, and monthly charges impact customer loyalty.
+An interactive Power BI dashboard analyzing customer retention patterns across 50,000 customers, built to identify high-risk segments and uncover the operational and demographic drivers of churn.
 
-## Data Set Here
-<a href="https://github.com/gauravSingh0106/Customer_Churn/blob/main/customer_churn_dataset_50000.csv"<a/>
-## Dashboard Screenshot Here
-<a href="https://github.com/gauravSingh0106/Customer_Churn/blob/main/custoemr%20chhurn.png"</a>
+## 📊 Overview
 
-<image width="1333" height="735" alt="custoemr chhurn" src="https://github.com/user-attachments/assets/c41f400c-ba8d-4bd0-926b-7aa810e1e962" />
+Customer churn directly impacts recurring revenue, and spotting it early is far cheaper than winning customers back. This project digs into a 50,000-customer dataset to understand **who is churning, why, and where the business should focus retention efforts**.
 
-## Project Overview <br>
+The dashboard tracks churn metrics in real time and breaks them down by age, contract type, payment method, and monthly charges — giving stakeholders a clear view of customer loyalty health at a glance.
 
- This project focuses on analyzing customer retention and understanding the key factors driving customer churn. <br>
- Using a dataset of 50,000 customers, I built an interactive Power BI dashboard to track churn metrics <br>
- identify high-risk customer segments, and analyze how variables like age  <br>
-  contract type, payment method, and monthly charges impact customer loyalty.  <br>
+## 🔗 Resources
 
+- **Dataset:** [customer_churn_dataset_50000.csv](https://github.com/gauravSingh0106/Customer_Churn/blob/main/customer_churn_dataset_50000.csv)
+- **Dashboard Screenshot:** [View here](https://github.com/gauravSingh0106/Customer_Churn/blob/main/custoemr%20chhurn.png)
 
- ## Business Questions <br>
-  AddressedWhat is the overall customer churn rate? <br>
-  how many active customers do we currently have? <br>
-  Which demographic groups (Age and Gender) show the highest tendency to churn?<br>
-  How do operational factors, such as contract types and payment methods, correlate with customer loss?<br>
-  Are customers with higher monthly charges more likely to leave?<br>
-  What specific segments represent the highest risk to the business?<br>
+## ❓ Business Questions Addressed
 
- ## Key Performance Indicators (KPIs)
- The dashboard tracks four primary top-level metrics to give stakeholders an immediate health check of customer retention:<br>
- Total Customers: 50K<br>
- Active Customers: 39K<br>
- Churned Customers: 11K<br>
- Churn Rate: 22%<br>
- 
-## Key Insights & Findings
+- What is the overall customer churn rate?
+- How many active customers do we currently have?
+- Which demographic groups (age and gender) show the highest tendency to churn?
+- How do operational factors — contract type and payment method — correlate with customer loss?
+- Are customers with higher monthly charges more likely to leave?
+- What specific segments represent the highest risk to the business?
 
-## Key Insights & Findings
+## 📈 Key Performance Indicators (KPIs)
 
-* **Demographic Triggers:** Senior citizens represent the most vulnerable demographic.<br>They account for the highest volume of churned customers (**5,681**) compared to middle-aged and younger cohorts.
-* **Risk Breakdown:** Out of the 11,002 total churned customers, a staggering **10,179** fall into the "Low Risk" behavioral category before leaving.<br>This indicates that churn is happening quietly without traditional "High Risk" warning flags, pointing toward a need for deeper engagement metrics.
-* **Contract & Operational Impact:** **Monthly contracts** are a massive driver of churn.<br>They rack up **7,837** lost customers compared to yearly or quarterly commitments.
-* **Financial Thresholds:** Customers with lower monthly charges (<80) make up the largest chunk of churn (36%).<br>This is closely followed by mid-tier spenders (80-120) at 33%.
-* **Tenure Vulnerability:** The highest churn occurs among long-term customers with a tenure of **>40 months** (4,379 customers).<br>This suggests a critical drop-off in loyalty or uncompetitive long-term pricing plans.
+| Metric | Value |
+|---|---|
+| Total Customers | 50,000 |
+| Active Customers | 39,000 |
+| Churned Customers | 11,000 |
+| Churn Rate | 22% |
 
+## 🔍 Key Insights & Findings
 
+- **Demographic Triggers:** Senior citizens are the most vulnerable segment, accounting for the highest volume of churned customers (**5,681**) compared to middle-aged and younger cohorts.
+- **Risk Breakdown:** Of the 11,002 total churned customers, a striking **10,179** fell into the "Low Risk" behavioral category before leaving — churn is happening quietly, without traditional high-risk warning signs, pointing to a need for deeper engagement metrics.
+- **Contract & Operational Impact:** **Monthly contracts** are the single biggest driver of churn, accounting for **7,837** lost customers versus yearly or quarterly commitments.
+- **Financial Thresholds:** Customers on lower monthly charges (<80) make up the largest share of churn (36%), closely followed by mid-tier spenders (80–120) at 33%.
+- **Tenure Vulnerability:** Churn peaks among long-term customers with tenure **>40 months** (4,379 customers), suggesting a loyalty drop-off or uncompetitive long-term pricing.
 
+## 🛠️ Tools Used
 
+- **Power BI** — dashboard design & DAX calculations
+- **Excel** — data cleaning & preprocessing
 
+## 💡 Recommendations
 
+- Introduce loyalty incentives targeted at long-tenure customers (>40 months) to counter the late-stage drop-off.
+- Promote annual/quarterly plans over monthly contracts through pricing incentives, given their outsized churn contribution.
+- Build proactive engagement triggers for "Low Risk" customers, since most churn originates here rather than from flagged high-risk accounts.
+- Review pricing tiers for the <80 monthly charge segment to understand what's pushing budget-conscious customers out.
 
-
-  
-
+---
+📌 *Feel free to explore the dashboard and dataset linked above. Feedback and suggestions are welcome!*
